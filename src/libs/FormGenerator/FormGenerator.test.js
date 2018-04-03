@@ -14,7 +14,8 @@ describe('/libs/FormGenerator', () => {
             list: ['firstName', 'lastName', 'phone'],
             configuration: {
                 phone: {type: 'tel'}
-            }
+            },
+            handleInput: () => null
         };
 
         const _FormGenerator = shallow(<FormGenerator {...props}/>);

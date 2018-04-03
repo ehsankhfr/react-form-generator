@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
+import PropTypes from 'prop-types';
+import {Input, Form, FormGroup, Label} from 'reactstrap';
 
 import JsonUtils from "../JsonUtils/JsonUtils";
 import StringUtils from "../StringUtils/StringUtils";
-
-import {Input, Form, FormGroup, Label} from 'reactstrap';
 
 const DEFAULT_FIELD_TYPE = 'text';
 
@@ -46,3 +46,13 @@ export default class FormGenerator extends Component {
 
     render = () => (<Form>{this.getForm()}</Form>);
 }
+
+FormGenerator.propTypes = {
+    list: PropTypes.array.isRequired,
+    configuration: PropTypes.object,
+    handleInput: PropTypes.func.isRequired
+};
+
+FormGenerator.defaultProps = {
+    configuration: {}
+};
