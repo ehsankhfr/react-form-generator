@@ -1,4 +1,4 @@
-## Steps ##
+## Description ##
 
 A React application to auto generate the simple forms
 
