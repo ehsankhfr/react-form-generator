@@ -1,3 +1,10 @@
+A React application to auto generate the simple forms
+
+## Steps to initialize the app
+
+1. `npm i` or `yarn`
+2. `npm start`
+
 ## Available Scripts
 
 In the project directory, you can run:
