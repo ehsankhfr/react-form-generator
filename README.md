@@ -1,3 +1,5 @@
+## Steps ##
+
 A React application to auto generate the simple forms
 
 ## Steps to initialize the app
